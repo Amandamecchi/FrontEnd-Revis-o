@@ -1,16 +1,17 @@
-"use client";
-import React from 'react';
-import { useState } from 'react';
+import Link from "next/link";
+import styles from "./page.module.css";
+import Image from "next/image";
+import { Poppins } from "next/font/google";
+import Header from "@/components/Header/Header";
 
-export default function Home() {
-  const [pessoas, setPessoas] = useState([
-    {nome: "Amanda", email: "amanda@gmail.com", idade: 20, },
-    {nome: "Flavia"},
-    {}
-  ])
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: ["400", "700"],
+});
+
+export default function HomePage() {
   return (
     <div>
-      <h1>Lista de Pessoas</h1>
-            </div>
-          );
-      }
+    </div>
+  );
+}
