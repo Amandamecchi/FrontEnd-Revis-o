@@ -2,7 +2,14 @@ import Image from "next/image";
 
 export default function NotFound() {
   return (
-    <div style={{ textAlign: "center" }}>
+    <div style={{
+      minHeight: "100vh",
+      display: "flex",
+      flexDirection: "column",
+      justifyContent: "center",
+      alignItems: "center",
+      textAlign: "center"
+    }}>
       <h1 style={{ margin: "32px 0" }}>Página não Encontrada</h1>  
       <p style={{ fontSize: "18px", color: "#666" }}>
         Desculpe, a página que você está procurando não existe.
