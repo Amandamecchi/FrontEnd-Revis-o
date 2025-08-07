@@ -1,0 +1,29 @@
+.header {
+  background: #363636;
+  color: #fff;
+  padding: 48px 0;
+  border-radius: 0.5rem;
+  margin: 2rem 1rem;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.subtitleWrapper {
+  margin-bottom: 2rem;
+}
+
+.subtitle {
+  margin-top: 0;
+  font-size: 1.3rem;
+}
+
